@@ -9,17 +9,6 @@ header {
     background-image: url(../images/logo.jpg);
 }
 
-.title {
-    width: 30%;
-    float: left;
-    padding: 1% 50px;
-}
-.title a{ 
-    text-decoration: none;
-    padding: 6% 5px;
-    display: inline-block;
-    transition: 0.5s;
-}
 .logo {
     background-size: 30%;
     background-repeat: no-repeat;
