@@ -39,6 +39,7 @@ button {
 .dark h1{
     background-color: #005B41;
     color: rgb(218, 228, 216);
+    transition: 0.5s;
 }
 .dark #heart{
     color: rgb(218, 228, 216);
@@ -58,6 +59,7 @@ button {
 
 body{
     background-color: #E1F0DA;
+    transition: 0.5s;
 }
 
 h1 {

@@ -1,9 +1,11 @@
 $(document).ready(function(){
     $("form").hide();
     $("#heart").hide();
+    $("#score").hide();
     $("#Button").click(function(){
         $("form").show();
         $("#heart").show();
+        $("#score").show();
         randomNumber();
         $("#Button").hide();
     });
@@ -13,6 +15,7 @@ $(document).ready(function(){
             $("#Button").show();
             $("form").hide();
             $("#heart").hide();
+            $("#score").hide();
         }
         return false;
     });
@@ -40,6 +43,7 @@ function randomNumber() {
     answer = firstNum + secondNum;
     document.getElementById("bigText").innerHTML = firstNum + " + " + secondNum;
     document.getElementById("hearts").innerHTML = health;
+    document.getElementById('score').innerHTML = score;
 }
 
 function checkAnswer(){
