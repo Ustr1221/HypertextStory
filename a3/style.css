@@ -1,0 +1,93 @@
+.error {
+    position: relative;
+    animation: shake .2s linear;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes shake {
+    0% { left: -5px; }
+    100% { right: -5px;}
+}
+
+button {
+    background-color: #40A2D8;
+    font-size: 1.5em;
+}
+
+.mode {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.dark {
+    background-color: #0F0F0F;
+}
+
+.dark h1{
+    background-color: #005B41;
+    color: rgb(218, 228, 216);
+}
+.dark #heart{
+    color: rgb(218, 228, 216);
+}
+.dark #gameBox {
+    background-color: #008170;
+    box-shadow: 50px 20px 5px #232D3F;
+}
+
+.dark .mode{
+    color: rgb(218, 228, 216);
+}
+.dark .change{
+    border: 1px solid rgb(218, 228, 216);
+    color: rgb(218, 228, 216);
+}
+
+body{
+    background-color: #E1F0DA;
+}
+
+h1 {
+    background-color: #99BC85;
+    color: #000;
+    height: 20vh;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 0;
+    font-size: 5em;
+}
+#gameBox {
+    background-color: #BFD8AF;
+    box-shadow: 50px 20px 5px #D4E7C5;
+    margin: 8% 20%;
+    height: 70vh;
+    text-align: center;
+}
+
+
+#answerBox {
+    text-align: center;
+    
+}
+input {
+    width: 4em;
+    height: 1em;
+    font-size: 2em;
+}
+#heart {
+    color: #000;
+    font-size: 2em;
+}
