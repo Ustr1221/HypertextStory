@@ -49,6 +49,10 @@ function draw() {
                 fill(200,200,230);
                 triangle(170, 230, 170, 400, 350, 400);
                 break;
+
+            case 7:
+                x=-1;
+                break;
             default:
         }
         i++;
