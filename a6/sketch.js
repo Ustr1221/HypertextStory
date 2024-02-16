@@ -5,7 +5,7 @@ let selectedCircle = null; // Variable to keep track of the selected circle
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
-  loadJSON("http://api.open-notify.org/astros.json", dataReceived);
+  loadJSON("https://cors-anywhere.herokuapp.com/http://api.open-notify.org/astros.json", dataReceived);
 }
 
 function dataReceived(data) {
