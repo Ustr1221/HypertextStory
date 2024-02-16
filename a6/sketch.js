@@ -1,13 +1,10 @@
 let astronautData;
 let circles = [];
 let selectedCircle = null; // Variable to keep track of the selected circle
-let data;
-async function setup() {
+function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
-  data = await fetch("http://api.open-notify.org/astros.json");
-  data = await data.json();
-  dataReceived(data);
+  loadJSON("https://cors-anywhere.herokuapp.com/http://api.open-notify.org/astros.json", dataReceived);
 }
 
 function dataReceived(data) {
